@@ -38,10 +38,10 @@ int main() {
     float promedioControles = (control1 + control2 + control3) / 3;
 
     // promedio solemnes
-    float promedioSolemenes = (solemne1 + solemne2 + solemne3) / 3;
+    float promedioSolemnes = (solemne1 + solemne2 + solemne3) / 3;
 
     // nota final
-    float notaFinal = (promedioControles * 0.4) + (promedioSolemenes * 0.6);
+    float notaFinal = (promedioControles * 0.4) + (promedioSolemnes * 0.6);
 
     // redondeo final
     notaFinal = round(notaFinal * 10) / 10;

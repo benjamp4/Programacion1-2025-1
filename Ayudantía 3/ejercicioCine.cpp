@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int edad;
-    bool esEstreno;
+    bool esEstreno; // ESTO ES UN VALOR BOOL -> 0 Y 1, FALSE Y TRUE, TRUE = 1 FALSE = 0
     float precioBase;
     float precioTotal;
 
@@ -23,7 +23,7 @@ int main() {
     }
 
     // Calcular el precio total considerando el recargo si es un estreno
-    if (esEstreno) {
+    if (esEstreno==true) {
         precioTotal = precioBase + 1500; // Añadir recargo de 3 dólares
     } else {
         precioTotal = precioBase; // Sin recargo

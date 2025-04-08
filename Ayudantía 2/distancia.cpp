@@ -20,7 +20,6 @@ int main() {
 
     // Calculo usando la formula del ejercicio
     double distancia = sqrt(pow(dx, 2) + pow(dy, 2));
-
     cout << "La distancia entre los dos puntos es: " << distancia << endl;
 
     return 0;
